@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="p-3 text-dark font-weight-bold text-center"><h1>Edit {{ student.name }}'s information</h1></div>
+
+    <div class="d-flex flex-column container-fluid text-center col-12 col-md-8 col-xl-4 scroll-top-margin" id="contact">
+		<div class="bg-dark text-light p-3">
+			<form method="POST">
+              {% csrf_token %}
+			  <div class="form-group">
+			  	<label for="name">Name</label>
+			  	<input type="text" id="name" name="name" class="form-control" value="{{ student.name }}" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="rollNo">Roll No.</label>
+			    <input type="text" id="rollNo" name="rollNo" class="form-control" value="{{ student.rollNo }}" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="department">Department</label>
+			    <input type="text" id="department" name="department" class="form-control" value="{{ student.department }}" required>
+			  </div>
+			  <div class="form-group">
+			      <label for="hostel">Hostel No.</label>
+			      <input type="number" id="hostel" id="hostel" name="hostel" class="form-control" value="{{ student.hostel }}" required></input>
+			  </div>
+			  <!-- Button trigger modal -->
+			  <button type="submit" class="btn btn-danger my-3">
+			    Save
+			  </button>
+			</form>
+		</div>
+{% endblock %}

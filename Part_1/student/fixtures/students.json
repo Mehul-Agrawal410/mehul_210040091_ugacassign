@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Mehul",
+        "rollNo": "210040091",
+        "department": "Civil",
+        "hostel": "2"
+    },
+    {
+        "name": "Hemant",
+        "rollNo": "210040031",
+        "department": "Mechanical",
+        "hostel": "3"
+    },
+    {
+        "name": "Harsh",
+        "rollNo": "200070049",
+        "department": "Electrical",
+        "hostel": "12"
+    },
+    {
+        "name": "Rishabh",
+        "rollNo": "210040146",
+        "department": "Electrical DD",
+        "hostel": "5"
+    },
+    {
+        "name": "Manish",
+        "rollNo": "210040089",
+        "department": "Civil",
+        "hostel": "6"
+    },
+    {
+        "name": "Manas",
+        "rollNo": "210020074",
+        "department": "Chemical",
+        "hostel": "9"
+    },
+    {
+        "name": "Aarya",
+        "rollNo": "200050004",
+        "department": "Computer Sc",
+        "hostel": "10"
+    },
+    {
+        "name": "Ananya",
+        "rollNo": "210070008",
+        "department": "Electrical",
+        "hostel": "15"
+    },
+    {
+        "name": "Tanish",
+        "rollNo": "22b3974",
+        "department": "Civil",
+        "hostel": "16"
+    }
+
+]
