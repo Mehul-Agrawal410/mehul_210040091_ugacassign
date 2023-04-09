@@ -8,3 +8,10 @@ Assumptions:
 - The "button to go to individual posts" is just put as hyperlink with it's text being the posts' title.
 - Website will only be used on desktop
 - As I used bootstrap and fontawesome, both parts will only be opened when connected to internet
+
+References:
+- [Student database management system](https://youtu.be/EUMpUUXKvP0)
+- [XAMPP](https://youtu.be/fV8ointgMeQ)
+- [Discussion forum](https://myprogrammingschool.com/build-discussion-forum-with-php-and-mysql-my-programming-school/)
+- [Discussion forum - video](https://youtu.be/yBzuGLCED0k)
+- Resources provided in the assignment doc
