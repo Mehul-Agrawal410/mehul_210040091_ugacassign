@@ -15,4 +15,9 @@ with open('student/fixtures/students.json', 'r') as f:
 
 # Loop through the data and insert each row into the database
 for row in student:
-    Student.objects.create(name=row['name'], rollNo=row['rollNo'], department=row['department'], hostel=row['hostel'])
+    Student.objects.create(
+        name=row['name'], 
+        rollNo=row['rollNo'], 
+        department=row['department'], 
+        hostel=row['hostel']
+    )

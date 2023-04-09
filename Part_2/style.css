@@ -1,0 +1,118 @@
+.posts-container {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+  }
+  
+  .post {
+    background-color: #fff !important;
+    padding: 20px 20px 0px 20px !important;
+    margin-bottom: -5px !important;
+  }
+  
+  .post h2 {
+    font-size: 24px !important;
+    margin-top: 10px !important;
+  }
+  
+  .post-info {
+    color: #777 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+  
+  .comments-container {
+    background-color: #f2f2f2 !important;
+    padding: 20px !important;
+    margin-top: 50px;
+  }
+  
+  .comments-container h3 {
+    margin-top: 0;
+  }
+  
+  .comment {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comment-info {
+    color: #777;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .vh-100 {
+    height: 100vh;
+  }
+  
+  .bg-image {
+    background-image: url("bg-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .bg-image-create {
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .bg-image-create ::placeholder {
+    color: white !important;
+    opacity: 0.4 !important;
+    font-style: italic !important;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .overlay-create {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  }
+  
+  .overlay-form {
+  backdrop-filter: blur(5px);
+  }
+  
+  .card {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  }
+
+  .icon-space {
+    padding-left: 0.75em !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+  }
+
+  .add-btn {
+    font-size: 0.9rem;
+    text-align: center;
+  }
