@@ -4,6 +4,7 @@ I didn't use any other external libraries besides the ones mentioned in the prob
 
 Assumptions:
 - In part 2, The username and password will only contain alphabets or numbers
+- No 2 people will use the same username
 - Instead of adding a back button to go to each previous page, I have put a navbar which contains links to the home page and create a post page. Plus a link to the original post page in the comments page navbar
 - The "button to go to individual posts" is just put as hyperlink with it's text being the posts' title.
 - Website will only be used on desktop
