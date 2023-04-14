@@ -14,4 +14,5 @@ References:
 - [XAMPP](https://youtu.be/fV8ointgMeQ)
 - [Discussion forum](https://myprogrammingschool.com/build-discussion-forum-with-php-and-mysql-my-programming-school/)
 - [Discussion forum - video](https://youtu.be/yBzuGLCED0k)
+- ChatGPT
 - Resources provided in the assignment doc
